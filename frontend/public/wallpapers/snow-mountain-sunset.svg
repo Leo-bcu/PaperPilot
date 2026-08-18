@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2a1a4a"/>
+      <stop offset="30%" stop-color="#7a2e6b"/>
+      <stop offset="55%" stop-color="#e06b4a"/>
+      <stop offset="78%" stop-color="#f5b861"/>
+      <stop offset="100%" stop-color="#f8e2a7"/>
+    </linearGradient>
+    <linearGradient id="snow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#fce9d2"/>
+      <stop offset="100%" stop-color="#8b6a8a"/>
+    </linearGradient>
+    <linearGradient id="rock" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4e3a6e"/>
+      <stop offset="100%" stop-color="#1f1b3a"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="68%" r="12%">
+      <stop offset="0%" stop-color="#fff4c4" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#ffb15c" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ff7b4a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky)"/>
+  <circle cx="960" cy="735" r="220" fill="url(#sun)"/>
+  <circle cx="960" cy="735" r="92" fill="#ffe2a8"/>
+  <!-- back mountains -->
+  <path d="M0 780 L280 540 L460 680 L700 460 L960 640 L1240 500 L1500 660 L1760 520 L1920 640 L1920 1080 L0 1080 Z" fill="url(#rock)" opacity="0.4"/>
+  <!-- mid mountain range -->
+  <path d="M0 860 L200 650 L380 780 L560 600 L780 770 L1000 580 L1220 760 L1420 640 L1640 780 L1920 660 L1920 1080 L0 1080 Z" fill="url(#rock)" opacity="0.75"/>
+  <!-- main snow peak -->
+  <polygon points="760,900 960,440 1160,900" fill="url(#snow)"/>
+  <polygon points="820,900 960,560 1100,900" fill="#ffffff" opacity="0.75"/>
+  <!-- foreground ridge -->
+  <path d="M0 1000 L240 860 L480 940 L720 840 L960 920 L1200 830 L1440 930 L1680 850 L1920 940 L1920 1080 L0 1080 Z" fill="#15102a"/>
+</svg>

@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a2b5e"/>
+      <stop offset="35%" stop-color="#ff9a7a"/>
+      <stop offset="55%" stop-color="#ffd5a1"/>
+      <stop offset="78%" stop-color="#fff0c4"/>
+      <stop offset="100%" stop-color="#fce4d0"/>
+    </linearGradient>
+    <linearGradient id="sea2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffc9a6"/>
+      <stop offset="40%" stop-color="#d88786"/>
+      <stop offset="100%" stop-color="#4f3e6e"/>
+    </linearGradient>
+    <linearGradient id="mt2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#876aa8"/>
+      <stop offset="100%" stop-color="#2d2648"/>
+    </linearGradient>
+    <radialGradient id="sun2" cx="50%" cy="58%" r="16%">
+      <stop offset="0%" stop-color="#fff9d4" stop-opacity="1"/>
+      <stop offset="55%" stop-color="#ffd089" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#ff8a5a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky2)"/>
+  <!-- clouds of cloud sea -->
+  <g opacity="0.9">
+    <ellipse cx="260" cy="720" rx="420" ry="60" fill="#fff6e0" opacity="0.7"/>
+    <ellipse cx="1100" cy="700" rx="620" ry="70" fill="#fff1d1" opacity="0.75"/>
+    <ellipse cx="1700" cy="740" rx="500" ry="55" fill="#ffe7c2" opacity="0.7"/>
+    <ellipse cx="640" cy="780" rx="560" ry="42" fill="#ffd7a8" opacity="0.8"/>
+    <ellipse cx="1520" cy="810" rx="600" ry="46" fill="#ffc99b" opacity="0.85"/>
+  </g>
+  <!-- sun emerging from cloud sea -->
+  <circle cx="960" cy="620" r="260" fill="url(#sun2)"/>
+  <circle cx="960" cy="620" r="110" fill="#fff2b0"/>
+  <!-- distant peaks -->
+  <path d="M0 740 L160 600 L300 700 L480 560 L660 690 L880 610 L1080 700 L1280 600 L1480 700 L1680 610 L1920 700 L1920 800 L0 800 Z" fill="url(#mt2)" opacity="0.7"/>
+  <!-- closer sharp peaks -->
+  <polygon points="0,1080 0,820 220,680 340,820 520,760 680,900 860,820 1020,940 1200,840 1420,960 1620,820 1800,920 1920,860 1920,1080" fill="#2a2046"/>
+  <!-- foreground pines -->
+  <g fill="#18122d">
+    <polygon points="90,1080 110,980 130,1080"/>
+    <polygon points="104,1080 126,940 148,1080"/>
+    <polygon points="1750,1080 1770,990 1790,1080"/>
+    <polygon points="1810,1080 1834,960 1858,1080"/>
+  </g>
+</svg>

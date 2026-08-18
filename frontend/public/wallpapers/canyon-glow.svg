@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky4" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#20163a"/>
+      <stop offset="30%" stop-color="#7d3260"/>
+      <stop offset="55%" stop-color="#d6564a"/>
+      <stop offset="80%" stop-color="#f2a552"/>
+      <stop offset="100%" stop-color="#f9d885"/>
+    </linearGradient>
+    <linearGradient id="canyon-left" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#2d1a28"/>
+      <stop offset="100%" stop-color="#6a3430"/>
+    </linearGradient>
+    <linearGradient id="canyon-right" x1="1" y1="0" x2="0" y2="0">
+      <stop offset="0%" stop-color="#2a1624"/>
+      <stop offset="100%" stop-color="#733834"/>
+    </linearGradient>
+    <linearGradient id="canyon-far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d4754a" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#4a2440" stop-opacity="0.6"/>
+    </linearGradient>
+    <radialGradient id="sun4" cx="52%" cy="38%" r="14%">
+      <stop offset="0%" stop-color="#fff2b0" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#ff9a4e" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#d14a4a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky4)"/>
+  <circle cx="998" cy="410" r="230" fill="url(#sun4)"/>
+  <circle cx="998" cy="410" r="90" fill="#ffd699"/>
+  <!-- distant canyon ridges -->
+  <path d="M0 560 L200 480 L420 560 L620 460 L820 560 L1040 470 L1240 560 L1440 480 L1640 560 L1920 490 L1920 660 L0 660 Z" fill="url(#canyon-far)"/>
+  <path d="M0 640 L160 580 L320 650 L520 580 L720 650 L900 590 L1080 650 L1260 580 L1460 650 L1640 590 L1920 650 L1920 730 L0 730 Z" fill="url(#canyon-far)" opacity="0.9"/>
+  <!-- left canyon wall -->
+  <polygon points="0,1080 0,520 160,620 220,560 340,680 380,580 470,700 520,620 580,760 620,680 660,820 700,760 740,1080" fill="url(#canyon-left)"/>
+  <!-- right canyon wall -->
+  <polygon points="1920,1080 1920,540 1760,620 1700,560 1580,680 1540,580 1450,700 1400,620 1340,760 1300,680 1260,820 1220,760 1180,1080" fill="url(#canyon-right)"/>
+  <!-- warm sunlit highlights on the rims -->
+  <path d="M0 520 L160 620 L220 560 L340 680 L380 580 L470 700 L520 620 L580 760 L620 680 L660 820 L700 760 L740 1080 L720 1080 L680 740 L640 800 L600 720 L540 720 L500 640 L420 740 L380 660 L320 720 L260 640 L180 700 L0 600 Z" fill="#f59348" opacity="0.22"/>
+  <path d="M1920 540 L1760 620 L1700 560 L1580 680 L1540 580 L1450 700 L1400 620 L1340 760 L1300 680 L1260 820 L1220 760 L1180 1080 L1200 1080 L1240 740 L1280 800 L1320 720 L1380 720 L1420 640 L1500 740 L1540 660 L1600 720 L1660 640 L1740 700 L1920 600 Z" fill="#f59348" opacity="0.22"/>
+  <!-- foreground river (tiny at bottom of canyon) -->
+  <path d="M820 1000 Q900 940 960 900 Q1020 940 1100 1000 L1160 1080 L760 1080 Z" fill="#2a1a34"/>
+  <path d="M860 990 Q920 950 960 920 Q1000 950 1060 990" fill="none" stroke="#ffd085" stroke-opacity="0.45" stroke-width="6"/>
+</svg>

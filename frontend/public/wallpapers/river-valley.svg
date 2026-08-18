@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky3" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2b4a7a"/>
+      <stop offset="45%" stop-color="#6fa5c8"/>
+      <stop offset="75%" stop-color="#b7d7e3"/>
+      <stop offset="100%" stop-color="#e9f1f3"/>
+    </linearGradient>
+    <linearGradient id="mt3-far" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7c9cb9"/>
+      <stop offset="100%" stop-color="#507295"/>
+    </linearGradient>
+    <linearGradient id="mt3-near" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3d6153"/>
+      <stop offset="60%" stop-color="#264a41"/>
+      <stop offset="100%" stop-color="#163333"/>
+    </linearGradient>
+    <linearGradient id="river" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#cfdfe8"/>
+      <stop offset="35%" stop-color="#98bdcf"/>
+      <stop offset="70%" stop-color="#587f9a"/>
+      <stop offset="100%" stop-color="#2a4763"/>
+    </linearGradient>
+    <linearGradient id="beach" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#d5b48a"/>
+      <stop offset="100%" stop-color="#8a6f4a"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky3)"/>
+  <!-- far mountain silhouettes -->
+  <path d="M0 560 L220 430 L420 520 L640 380 L860 490 L1080 410 L1300 520 L1540 420 L1780 500 L1920 440 L1920 620 L0 620 Z" fill="url(#mt3-far)" opacity="0.8"/>
+  <path d="M0 620 L180 540 L340 610 L520 520 L700 600 L880 540 L1060 620 L1260 560 L1460 620 L1660 560 L1920 620 L1920 700 L0 700 Z" fill="url(#mt3-far)" opacity="0.9"/>
+  <!-- near mountains flanking the valley -->
+  <polygon points="0,1080 0,620 180,480 340,640 460,540 560,680 680,580 780,700 820,880 760,1080" fill="url(#mt3-near)"/>
+  <polygon points="1920,1080 1920,620 1740,500 1580,640 1460,540 1340,680 1220,580 1120,720 1080,900 1140,1080" fill="url(#mt3-near)"/>
+  <!-- winding river "S" curve receding to horizon -->
+  <path d="M900 640 Q780 700 760 780 Q720 860 820 940 Q900 1010 1020 1080 L1200 1080 Q1100 980 1180 900 Q1260 820 1200 740 Q1160 680 1040 640 Z" fill="url(#river)"/>
+  <!-- river highlight -->
+  <path d="M930 650 Q860 700 840 770 Q820 830 880 900" fill="none" stroke="#ffffff" stroke-opacity="0.35" stroke-width="10"/>
+  <!-- river bank sands -->
+  <path d="M760 780 Q720 870 840 960 L760 1080 L0 1080 L0 930 Q240 880 520 910 Q660 900 760 780 Z" fill="url(#beach)"/>
+  <path d="M1200 740 Q1260 830 1180 900 Q1120 980 1200 1080 L1920 1080 L1920 930 Q1660 870 1380 910 Q1260 910 1200 740 Z" fill="url(#beach)"/>
+</svg>

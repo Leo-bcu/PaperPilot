@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 1080" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <linearGradient id="sky5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e2a4a"/>
+      <stop offset="40%" stop-color="#3c6f9a"/>
+      <stop offset="75%" stop-color="#9ec8dd"/>
+      <stop offset="100%" stop-color="#dde9ee"/>
+    </linearGradient>
+    <linearGradient id="lake5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#c4dbe6"/>
+      <stop offset="50%" stop-color="#6a99b6"/>
+      <stop offset="100%" stop-color="#1b3f5e"/>
+    </linearGradient>
+    <linearGradient id="far5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a3bdd1"/>
+      <stop offset="100%" stop-color="#54718e"/>
+    </linearGradient>
+    <linearGradient id="mt5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#516f6c"/>
+      <stop offset="60%" stop-color="#264243"/>
+      <stop offset="100%" stop-color="#102833"/>
+    </linearGradient>
+    <linearGradient id="snow5" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="60%" stop-color="#d8e6ef"/>
+      <stop offset="100%" stop-color="#8fa9bd"/>
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#sky5)"/>
+  <!-- subtle moon -->
+  <circle cx="300" cy="180" r="60" fill="#ffffff" opacity="0.85"/>
+  <circle cx="320" cy="170" r="60" fill="url(#sky5)"/>
+  <!-- far hazy range reflected in lake -->
+  <path d="M0 540 L240 460 L420 520 L640 430 L860 510 L1080 450 L1300 520 L1540 440 L1780 500 L1920 460 L1920 580 L0 580 Z" fill="url(#far5)" opacity="0.85"/>
+  <!-- mirrored underwater mountain -->
+  <path d="M0 580 L240 660 L420 600 L640 690 L860 610 L1080 670 L1300 600 L1540 680 L1780 620 L1920 660 L1920 580 Z" fill="url(#far5)" opacity="0.35"/>
+  <!-- central mountain with snow -->
+  <polygon points="620,580 820,300 960,470 1100,300 1300,580" fill="url(#snow5)"/>
+  <polygon points="780,580 820,380 880,500 960,380 1040,500 1100,380 1140,580" fill="#ffffff" opacity="0.8"/>
+  <polygon points="620,580 820,300 960,470 1100,300 1300,580" fill="#000000" opacity="0.18" transform="translate(0,0) scale(1,-1) translate(0,-1160)"/>
+  <!-- near range left -->
+  <polygon points="0,1080 0,580 160,520 300,620 420,540 540,660 660,580 720,680 700,860 600,1080" fill="url(#mt5)"/>
+  <!-- near range right -->
+  <polygon points="1920,1080 1920,580 1760,520 1620,620 1500,540 1380,660 1260,580 1200,680 1220,860 1320,1080" fill="url(#mt5)"/>
+  <!-- lake -->
+  <path d="M600 580 Q720 720 800 840 Q880 960 960 1080 L960 1080 L600 1080 Z" fill="url(#lake5)" opacity="0.95"/>
+  <path d="M1320 580 Q1200 720 1120 840 Q1040 960 960 1080 L960 1080 L1320 1080 Z" fill="url(#lake5)" opacity="0.95"/>
+  <!-- lake shimmer horizontal -->
+  <g stroke="#ffffff" stroke-opacity="0.35" fill="none">
+    <line x1="640" y1="700" x2="1280" y2="700" stroke-width="2"/>
+    <line x1="700" y1="770" x2="1220" y2="770" stroke-width="3"/>
+    <line x1="760" y1="840" x2="1160" y2="840" stroke-width="2"/>
+    <line x1="820" y1="910" x2="1100" y2="910" stroke-width="3"/>
+    <line x1="860" y1="970" x2="1060" y2="970" stroke-width="2"/>
+  </g>
+  <!-- small pine silhouettes -->
+  <g fill="#0c1f2a">
+    <polygon points="150,1080 170,1000 190,1080"/>
+    <polygon points="164,1080 186,950 208,1080"/>
+    <polygon points="1730,1080 1750,1000 1770,1080"/>
+    <polygon points="1746,1080 1770,960 1794,1080"/>
+  </g>
+</svg>
