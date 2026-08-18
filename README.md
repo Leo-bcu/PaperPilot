@@ -2,8 +2,8 @@
   <img src="others/logo.png" alt="PaperPilot Logo" width="720" />
 </p>
 
-<h2 align="center">Navigate the Knowledge Ocean.</h2>
-<h4 align="center">Your Co-pilot in Research.</h4>
+<h2 align="center">Navigate the Knowledge Ocean. Your Co-pilot Through Every Paper.</h2>
+
 
 <p align="center">
   <a href="https://react.dev/">
@@ -70,7 +70,7 @@ PaperPilot 主打三件事：**简单、AI 辅助、纯本地**。
 ## ⚙️ 架构概览
 
 <p align="center">
-  <img src="others/structure.png" alt="PaperPilot 架构图" width="80%" />
+  <img src="others/structure.png" alt="PaperPilot 架构图" width="100%" />
 </p>
 
 ## 🚀 快速启动
@@ -187,7 +187,7 @@ npm run build      # 产物输出到 frontend/dist
 
 ## 💬 欢迎交流
 
-如有问题、建议或使用心得，欢迎通过 Issue 反馈，或加入交流群一起讨论。
+如有问题、建议或使用心得，欢迎通过 E-Mail 反馈。
 
 ## 📄 License
 
