@@ -18,8 +18,6 @@
   <a href="https://platform.deepseek.com/">
     <img src="https://img.shields.io/badge/LLM-DeepSeek-4D6BFF?style=flat-square" alt="DeepSeek" />
   </a>
-  <img src="https://img.shields.io/badge/Deploy-Local%20First-2ea44f?style=flat-square" alt="Local First" />
-  <img src="https://img.shields.io/badge/Platform-macOS%20%7C%20Win%20%7C%20Linux-6c757d?style=flat-square" alt="Cross Platform" />
   <a href="./LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue?style=flat-square" alt="License MIT" /></a>
 </p>
 
@@ -187,7 +185,7 @@ npm run build      # 产物输出到 frontend/dist
 
 ## 💬 欢迎交流
 
-如有问题、建议或使用心得，欢迎通过 E-Mail 反馈。
+如有问题、建议或使用心得，欢迎通过 E-Mail`KaiyuLi2025@163.com` 反馈。
 
 ## 📄 License
 
