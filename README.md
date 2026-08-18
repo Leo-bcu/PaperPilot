@@ -88,7 +88,7 @@ PaperPilot 需要两枚 Key，可先去获取，启动系统后再在「设置�
 ### 2) 📦 克隆仓库
 
 ```bash
-git clone <your-repo-url> PaperPilot
+git clone https://github.com/Leo-bcu/PaperPilot.git
 cd PaperPilot
 ```
 
