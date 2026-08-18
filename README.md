@@ -185,7 +185,7 @@ npm run build      # 产物输出到 frontend/dist
 
 ## 💬 欢迎交流
 
-如有问题、建议或使用心得，欢迎通过 E-Mail`KaiyuLi2025@163.com` 反馈。
+如有问题、建议或使用心得，欢迎通过`KaiyuLi2025@163.com` 反馈。
 
 ## 📄 License
 
