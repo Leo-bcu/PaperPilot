@@ -3,7 +3,7 @@
 </p>
 
 <h2 align="center">Navigate the Knowledge Ocean. Your Co-pilot Through Every Paper.</h2>
-<h3 align="center">专为科研新手打造的 AI 伴读与极速阅读工具——零门槛上手，几分钟读透一篇论文。</h3>
+<h2 align="center">专为科研新手打造的 AI 伴读与极速阅读工具——零门槛上手，几分钟读透一篇论文。</h2>
 
 <p align="center">
   <a href="https://react.dev/">
