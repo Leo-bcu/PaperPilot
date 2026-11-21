@@ -22,7 +22,7 @@
 </p>
 
 <p align="center">
-<strong>PaperPilot</strong> 是一款专为科研小白打造的纯本地 AI 论文速读与伴读工具。通过<strong>“自动拆解框架 + 实时伴读讲解”</strong>帮你几分钟读懂英文文献，并支持<strong>一键导出至 Zotero、EndNote</strong>，轻松衔接论文写作，数据全程留存本机。
+<strong>PaperPilot</strong> 是一款专为科研小白打造的纯本地 AI 论文速读与伴读工具。通过<strong>“自动拆解框架 + 实时伴读讲解”</strong>帮你几分钟读懂文献，并支持<strong>一键导出至 Zotero、EndNote</strong>，轻松衔接论文写作，数据全程留存本机。
 </p>
 
 ---
